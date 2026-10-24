@@ -2,5 +2,5 @@ url: https://github.com/MingTXin/dsh-remote-workstation
 name: MingTXin/dsh-remote-workstation
 category: remote
 description:
-  en: 'Remote workspaces for DeepSeek Harness: pick an SSH host in the sidebar, mount a server directory over SFTP as a workspace, and keep a plugin-owned host store with password, key or agent logins (remote files are read-only in this release).'
-  zh: '给 DeepSeek Harness 用的远程工作区：在侧栏选 SSH 主机，通过 SFTP 把服务器目录挂载为工作区，主机凭据由插件自己的主机库维护（支持密码、私钥与 SSH agent；当前版本远端只读）。'
+  en: 'Remote workspaces for DeepSeek Harness: pick an SSH host in the sidebar, mount a server directory over SFTP as a workspace, then read, write and edit those files with the normal file tools. Ships remote_exec and remote_search tools and a plugin-owned host store with password, key or SSH agent logins.'
+  zh: '给 DeepSeek Harness 用的远程工作区：在侧栏选 SSH 主机，通过 SFTP 把服务器目录挂载成工作区，随后用普通的文件工具直接读写远端文件；附带 remote_exec / remote_search 工具，主机凭据由插件自带的主机库维护（密码、私钥或 SSH agent）。'
